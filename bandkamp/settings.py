@@ -14,6 +14,7 @@ from pathlib import Path
 from datetime import timedelta
 import dotenv
 import os
+import dj_database_url
 from django.core.management.utils import get_random_secret_key
 dotenv.load_dotenv()
 
